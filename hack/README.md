@@ -21,8 +21,14 @@ pip install -r ./hack/requirements.txt
 To use the API, establish a connection using a [personal access token](https://docs.microsoft.com/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=vsts) and the URL to your Azure DevOps organization. Then get a client from the connection and make API calls.
 
 ```python
-# Fill in with your personal access token and org URL
+# Fill in with your personal access token, org URL and project
 personal_access_token = 'YOURPAT'
 organization_url = 'https://dev.azure.com/YOURORG'
 project = 'YOURPROJECT'
+```
+
+## Usage
+Run pipe.py
+```bash
+$ python3 pipe.py
 ```
