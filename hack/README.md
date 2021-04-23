@@ -11,6 +11,7 @@ This repository contains Python APIs for interacting with and managing Azure Dev
 ```
 git clone <repo>
 python3 -m venv env
+source ./env/bin/activate
 pip install -r ./hack/requirements.txt
 ```
 
